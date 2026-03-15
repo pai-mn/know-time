@@ -1,0 +1,15 @@
+{
+  "name": "know-time-pdf-generator",
+  "version": "1.0.0",
+  "description": "Generate PDF from markdown presentation",
+  "type": "module",
+  "main": "generate-pdf.js",
+  "scripts": {
+    "generate-pdf": "node generate-pdf.js"
+  },
+  "dependencies": {
+    "markdown-it": "^13.0.0",
+    "puppeteer": "^21.0.0",
+    "marked": "^9.0.0"
+  }
+}
